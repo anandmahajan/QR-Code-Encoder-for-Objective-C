@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
     spec.source       = { :git => 'https://github.com/myang-git/QR-Code-Encoder-for-Objective-C.git',
         :tag => '80a5af09041673de6bdbd72fb93c9b95bf1b439e' }
     spec.source_files = 'QRCodeEncoderObjectiveCAtGithub/**/*.{h,m,mm,cpp}'
-    spec.requires_arc = false,
+    spec.requires_arc = false
     spec.ios.deployment_target = '5.0'
 end
 
